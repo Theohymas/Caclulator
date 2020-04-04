@@ -127,4 +127,9 @@ public class CalculatorGUI
         display.setText("" + memory);
         readyStatus = true;
     }
+
+    public double getAnswer()
+    {
+        return memory;
+    }
 }
